@@ -1,4 +1,3 @@
-function getStarted() {
     var productName = document.getElementsByClassName("product-details__name");			
 if (productName[0].innerText === "Colchão de Mola Firm 34 iMassage") {
     var labelName = document.getElementsByClassName("product-details__name");
@@ -40,5 +39,3 @@ if (productName[0].innerText === "Colchão de Mola Comfort 34") {
     var variant007 = document.getElementById("label_valor2_var007");
     variant007.insertAdjacentHTML('afterend', '<a href="https://dashboardccoast.com/model/03004f7d-9f5d-482e-bc49-0761e1795ac2" target="_blank"><span>&nbsp;Realidade Aumentada&nbsp;</span></a>');
 }
-}
-getStarted();
